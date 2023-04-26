@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "./Title";
 
 function Contact() {
   return (
@@ -7,12 +8,9 @@ function Contact() {
         <form
           action='https://getform.io/slug'
           method='POST'
-          className='flex flex-col w-full md:w-4/12 p-2'
+          className='flex flex-col w-full md:w-7/12 p-2'
         >
-          <h1 className='text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-stone-900 dark:text-white '>
-            Contact
-          </h1>
-
+          <Title>Contact</Title>
           <input
             type='text'
             name='name'
