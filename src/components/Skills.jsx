@@ -1,7 +1,11 @@
 import React from "react";
 
 function Skills() {
-  return <div className="text-3xl">Skills</div>;
+  return (
+    <div>
+      <h1>What i do</h1>
+    </div>
+  );
 }
 
 export default Skills;
