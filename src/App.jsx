@@ -72,6 +72,9 @@ function App() {
       >
         {theme === "dark" ? sun : moon}
       </button>
+      <button className="fixed p-2 z-10 right-32 top-4 border rounded-md border-stone-900 dark:border-white font-semibold">
+        EN
+      </button>
       <About></About>
       <Projects></Projects>
       <Contact />
