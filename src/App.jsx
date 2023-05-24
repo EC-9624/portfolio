@@ -56,12 +56,11 @@ function App() {
       >
         {lang}
       </button>
-
-      <About></About>
       <LangContext.Provider value={lang}>
+        <About></About>
         <Projects />
+        <Contact />
       </LangContext.Provider>
-      <Contact />
       <Footer />
     </div>
   );
