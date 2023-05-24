@@ -2,8 +2,10 @@ import React from "react";
 import data from "../data/project";
 import ProjectItem from "./ProjectItem";
 import Title from "./Title";
+import { LangContext } from "../App";
 
 function Projects() {
+  const lang = React.useContext(LangContext);
   return (
     <div className="flex flex-col items-start justify-between max-w-max mx-auto">
       <Title>Projects</Title>
@@ -14,7 +16,7 @@ function Projects() {
             title={p.title}
             imgUrl={p.imgUrl}
             stack={p.stack}
-            desc={p.desc}
+            desc={lang === "EN" ? p.desc : p.desc_jp}
             link={p.link}
           />
         ))}
