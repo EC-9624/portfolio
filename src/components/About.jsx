@@ -26,7 +26,7 @@ function About() {
       <h2 className="text-base md:text-xl  mb-3 font-medium">
         Software Engineer & Full-stack Web Developer
       </h2>
-      <p className="text-md max-w-xl mb-6 font-bold text-justify">{text}</p>
+      <p className="text-md max-w-2xl mb-6 font-bold text-justify">{text}</p>
     </div>
   );
 }
