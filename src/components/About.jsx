@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="flex items-center justify-center flex-col text-center pt-20 pb-6 mx-auto">
+    <div className="flex items-center justify-center flex-col text-center pt-20 pb-6 mx-4">
       <h1 className="text-3xl md:text-4xl mb-1 md:mb-3 font-bold">
         Eakudompong Chanoknan
       </h1>
