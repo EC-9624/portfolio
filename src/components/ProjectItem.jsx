@@ -24,7 +24,7 @@ function ProjectItem(props) {
             </span>
           ))}
         </p>
-        <p className="max-w-sm mt-4 ">{desc}</p>
+        <p className="max-w-xs mt-4 text-justify ">{desc}</p>
       </div>
     </div>
   );

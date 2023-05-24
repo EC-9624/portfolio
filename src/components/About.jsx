@@ -9,7 +9,7 @@ function About() {
       <h2 className="text-base md:text-2xl  mb-3 font-medium">
         Software Engineer & Full-stack Web Developer
       </h2>
-      <p className="text-lg max-w-3xl mb-6 font-bold ">
+      <p className="text-md max-w-3xl mb-6 font-bold text-justify">
         Hi!, I'm Chanoknan, i'm a Full-stack developer with a passion for
         learning and exploring new technologies. I have been building my skills
         through coursework and personal projects, and I'm always eager to take

@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import Title from "./components/Title";
+import Timeline from "./components/Timeline";
 
 function App() {
   //darkMode
@@ -64,7 +66,7 @@ function App() {
   );
 
   return (
-    <div className="App bg-stone-100 dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+    <div className="App bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
       <button
         type="button"
         onClick={handleThemeSwitch}
@@ -76,7 +78,9 @@ function App() {
         EN
       </button>
       <About></About>
+      <Title>Projects</Title>
       <Projects></Projects>
+      <Timeline></Timeline>
       <Contact />
       <Footer />
     </div>
