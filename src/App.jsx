@@ -66,7 +66,7 @@ function App() {
   );
 
   return (
-    <div className="App bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+    <div className="App bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter ">
       <button
         type="button"
         onClick={handleThemeSwitch}
