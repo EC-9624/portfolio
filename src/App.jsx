@@ -78,9 +78,9 @@ function App() {
         EN
       </button>
       <About></About>
-      <Title>Projects</Title>
+
       <Projects></Projects>
-      <Timeline></Timeline>
+
       <Contact />
       <Footer />
     </div>
