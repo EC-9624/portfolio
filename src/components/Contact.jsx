@@ -8,6 +8,16 @@ function Contact() {
     const form = e.target;
     const formData = new FormData(form);
 
+    // Get the values of name and email fields from the form data
+    const name = formData.get("name");
+    const email = formData.get("email");
+
+    // Check if name or email is empty
+    if (!name || !email) {
+      console.error("Name or email is empty");
+      return; // Stop further execution
+    }
+
     axios
       .post(
         "https://getform.io/f/150132c8-6b67-478a-beee-f68b3d631241",
