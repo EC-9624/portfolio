@@ -5,13 +5,13 @@ function Footer() {
     <div className="py-5 text-center">
       <div className="flex items-center justify-center gap-4 my-4">
         <div>
-          <a href="#">
+          <a href="https://github.com/EC-9624" target="blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
               aria-hidden="true"
               role="img"
-              className="w-10"
+              className="w-7"
               preserveAspectRatio="xMidYMid meet"
               viewBox="0 0 24 24"
             >
@@ -27,13 +27,16 @@ function Footer() {
           </a>
         </div>
         <div>
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/chanoknan-eakudompong-00b647227/"
+            target="blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               aria-hidden="true"
               role="img"
-              className="w-10"
+              className="w-7"
               preserveAspectRatio="xMidYMid meet"
             >
               <g fill="none">
@@ -48,11 +51,11 @@ function Footer() {
           </a>
         </div>
         <div>
-          <a href="#">
+          <a href="https://www.instagram.com/chanoknan_e/" target="blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               role="img"
-              className="w-10 h-10"
+              className="w-7 h-7"
               preserveAspectRatio="xMidYMid meet"
               width="24"
               height="24"
@@ -68,10 +71,10 @@ function Footer() {
           </a>
         </div>
         <div>
-          <a href="#">
+          <a href="https://www.wantedly.com/id/E_Chanoknan" target="blank">
             <svg
               role="img"
-              className="w-10 h-10"
+              className="w-7 h-7"
               preserveAspectRatio="xMidYMid meet"
               width="24"
               height="24"
