@@ -1,13 +1,30 @@
 import React from "react";
 import Title from "./Title";
+import axios from "axios";
 
 function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    axios
+      .post(
+        "https://getform.io/f/150132c8-6b67-478a-beee-f68b3d631241",
+        formData
+      )
+      .then((response) => {
+        console.log("Form submitted successfully", response);
+      })
+      .catch((error) => {
+        console.error("Failed to submit form:", error);
+      });
+  };
   return (
     <div className="flex flex-col mb-10 mt-2 mx-auto max-w-screen-lg ">
       <div className="flex justify-center items-center ">
         <form
-          action="https://getform.io/slug"
-          method="POST"
+          onSubmit={handleSubmit}
           className="flex flex-col w-full md:w-7/12 p-2"
         >
           <Title>Contact</Title>
@@ -32,7 +49,7 @@ function Contact() {
           ></textarea>
 
           <button
-            type="button"
+            type="submit"
             className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl"
           >
             Get In Touch
