@@ -12,12 +12,13 @@ function Contact() {
     const name = formData.get("name");
     const email = formData.get("email");
 
-    // Check if name or email is empty
+    // Valadite
     if (!name || !email) {
       console.error("Name or email is empty");
-      return; // Stop further execution
+      return;
     }
 
+    //Post
     axios
       .post(
         "https://getform.io/f/150132c8-6b67-478a-beee-f68b3d631241",

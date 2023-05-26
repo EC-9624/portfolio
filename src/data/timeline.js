@@ -28,10 +28,9 @@ export default [
       "I pursued the knowledge that a computer science degree had to offer. I learned about computer architecture, computer science theory, an array of programming, and aspects of artificial intelligence.",
   },
   {
-    year: "2013",
+    year: "2019",
     title: "First Line of Code",
     duration: "the beginning",
-    details:
-      "I wrote my first line of real code that started this journey into digital craftsmanship that I never could've imagined, especially as someone who never saw themselves as anything other than a blue collar worker.",
+    details: "I start writing code during the pandamic. Be in",
   },
 ];

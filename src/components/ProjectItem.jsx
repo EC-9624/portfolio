@@ -4,7 +4,7 @@ function ProjectItem(props) {
   const { title, imgUrl, stack, link, desc } = props;
 
   return (
-    <div className="border border-stone-900 dark:border-white rounded-sm overflow-hidden ">
+    <div className="border border-stone-900 dark:border-white rounded-sm overflow-hidden max-h-fit">
       <img
         src={imgUrl}
         alt="Project"
@@ -25,7 +25,7 @@ function ProjectItem(props) {
             </span>
           ))}
         </p>
-        <p className="max-w-xs mt-4 text-justify ">{desc}</p>
+        <p className="max-w-xs max-h-max mt-4 text-md text-start">{desc}</p>
       </div>
     </div>
   );
