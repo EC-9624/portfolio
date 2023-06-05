@@ -28,9 +28,9 @@ export default [
       "I pursued the knowledge that a computer science degree had to offer. I learned about computer architecture, computer science theory, an array of programming, and aspects of artificial intelligence.",
   },
   {
-    year: "2019",
+    year: "2020",
     title: "First Line of Code",
     duration: "the beginning",
-    details: "I start writing code during the pandamic. Be in",
+    details: "I start writing code during the pandamic.",
   },
 ];

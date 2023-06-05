@@ -59,6 +59,7 @@ function App() {
       <LangContext.Provider value={lang}>
         <About></About>
         <Projects />
+        <Timeline></Timeline>
         <Contact />
       </LangContext.Provider>
       <Footer />
