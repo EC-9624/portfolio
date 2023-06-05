@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Title from "./Title";
 import axios from "axios";
 
 function Contact() {
+  const [message, setMessage] = useState(null);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -15,6 +17,7 @@ function Contact() {
     // Valadite
     if (!name || !email) {
       console.error("Name or email is empty");
+      setMessage("Name or email is empty");
       return;
     }
 
@@ -26,9 +29,11 @@ function Contact() {
       )
       .then((response) => {
         console.log("Form submitted successfully", response);
+        setMessage("Form submitted successfully");
       })
       .catch((error) => {
         console.error("Failed to submit form:", error);
+        setMessage("Failed to submit form: " + error.message);
       });
   };
   return (
@@ -58,6 +63,16 @@ function Contact() {
             rows="10"
             className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
           ></textarea>
+
+          {message && (
+            <p
+              className={`text-${
+                message.includes("success") ? "green" : "red"
+              }-500`}
+            >
+              {message}
+            </p>
+          )}
 
           <button
             type="submit"

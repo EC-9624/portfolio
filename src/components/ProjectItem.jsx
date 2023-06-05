@@ -4,7 +4,7 @@ function ProjectItem(props) {
   const { title, imgUrl, stack, link, desc } = props;
 
   return (
-    <div className="border border-stone-900 dark:border-white rounded-sm overflow-hidden max-h-fit">
+    <div className="border border-stone-900 dark:border-white rounded-sm overflow-hidden max-h-fit opacity-100 transition duration-300 ease-in-out hover:opacity-80">
       <img
         src={imgUrl}
         alt="Project"
