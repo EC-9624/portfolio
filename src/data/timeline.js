@@ -4,7 +4,7 @@ export default [
     title: "ECC Computer College",
     duration: "2 years",
     details:
-      "I decided to enroll in ECC Computer College to start my career as a software Developer in japan I learned about Programing,System Design,Networking and get my hand dirty with Group/Personal Projects.",
+      "I decided to enroll in ECC Computer College to kickstart my career as a software Developer in japan I learned about Programing,System Design,Networking and get my hand dirty with group and personal projects. ",
   },
   {
     year: "2021",
