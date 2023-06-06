@@ -6,7 +6,7 @@ export default [
     details:
       "I decided to enroll in ECC Computer College to kickstart  my career as a software Developer in japan I learned about Programing,System Design,Networking and get my hand dirty with group and personal projects. ",
     details_jp:
-      "日本でソフトウェアエンジニアとして就職するため、ECCコンピューター専門学校に入学することを決めました。プログラミング、システムデザイン、ネットワーキングについて学び、グループや個人のプロジェクトで実践的な経験を積みました。",
+      "日本でソフトウェアエンジニアとして就職するため、ECCコンピューター専門学校に入学することを決めました。プログラミング、システムデザイン、ネットワーキングについて学び、グループや個人のプロジェクトで実践的な経験を積めています。",
   },
   {
     year: "2021",
@@ -15,7 +15,7 @@ export default [
     details:
       "Unfortunately, I graduated in the midst of the pandemic with a lot of free time. I was looking for my options for the future, and luckily, I found scholarships to study Japanese at Asahikawa Welfare College in Hokkaido. This marks the start of my journey in Japan.",
     details_jp:
-      "残念ながら、私はコロナの最中に卒業しました。将来の選択肢を探していたところ、幸運にも北海道の旭川福祉専門学校で日本語の奨学金を見つけることができました。これが私の日本での旅の始まりとなります。",
+      "残念ながら、私はコロナの最中に卒業しました。将来の選択肢を探していたところ、幸運にも北海道の旭川福祉専門学校で日本語学科の奨学金を見つけることができました。これが私の日本での旅の始まりとなります。",
   },
 
   {
