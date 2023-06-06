@@ -37,7 +37,7 @@ function Contact() {
       });
   };
   return (
-    <div className="flex flex-col mb-10 mt-2 mx-auto max-w-screen-lg ">
+    <div className="flex flex-col mb-10 mt-2 mx-auto max-w-screen-xl ">
       <div className="flex justify-center items-center ">
         <form
           onSubmit={handleSubmit}
