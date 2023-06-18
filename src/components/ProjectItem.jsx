@@ -5,11 +5,14 @@ function ProjectItem(props) {
 
   return (
     <div className="border border-stone-900 dark:border-white rounded-sm overflow-hidden max-h-fit opacity-100 transition duration-300 ease-in-out hover:opacity-80">
-      <img
-        src={imgUrl}
-        alt="Project"
-        className="w-full h-36 md:h-48 object-cover cursor-pointer"
-      />
+      <a href={link} target="_blank">
+        <img
+          src={imgUrl}
+          alt="Project"
+          className="w-full h-36 md:h-48 object-cover cursor-pointer"
+        />
+      </a>
+
       <div className="w-full p-4">
         <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
           <a href={link} target="_blank">

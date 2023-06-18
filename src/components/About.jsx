@@ -10,7 +10,7 @@ function About() {
   code and staying up to date with industry trends. I'm excited to learn
   and grow, and I'm always looking for opportunities to apply my skills.`;
 
-  const text_JP = `こんにちは！チャノックナンです。私は幅広いスキルの習得して、フルスタックエンジニアを目指しています。コースワークと個人プロジェクトを通じて実力をつけています。Web開発やモバイルアプリ開発に興味があります。私のスキルと経験を活かしながら、挑戦的なプロジェクトに参加し、チームと共に目標に向かって成長できる場所を探しています。`;
+  const text_JP = `こんにちは！ チャノックナンです。私は幅広いスキルの習得して、フルスタックエンジニアを目指しています。コースワークと個人プロジェクトを通じて実力をつけています。Web開発やモバイルアプリ開発に興味があります。私のスキルと経験を活かしながら、挑戦的なプロジェクトに参加し、チームと共に目標に向かって成長できる場所を探しています。`;
 
   const text = lang === "EN" ? text_EN : text_JP;
 
@@ -26,10 +26,6 @@ function About() {
         Software Engineer & Full-stack Web Developer
       </h2>
       <p className="text-sm max-w-xl mb-4 font-bold text-justify">{text}</p>
-      <div className="flex gap-2 ">
-        <p>Email: e.chanoknan96@outlook.com</p>
-        <p>Osaka,Japan</p>
-      </div>
     </div>
   );
 }
