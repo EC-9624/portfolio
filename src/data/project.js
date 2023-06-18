@@ -15,7 +15,7 @@ export default [
     imgUrl: "/assets/ramenhub.png",
     desc: "Interactive map to help you find the best ramen places in Osaka built using the MERN Stack.",
     desc_jp:
-      "大阪にあるおすすめのラメーん屋さんの検索又は紹介するための地図アプリ。",
+      "大阪にあるおすすめのラメーん屋さんの検索又は紹介するための地図アプリ",
     stack: ["React", "NodeJs", "Express", "MongoDB"],
     link: "https://github.com/EC-9624/RamenHub",
   },
@@ -24,7 +24,7 @@ export default [
     title: "Pokedex",
     imgUrl: "/assets/pokedex.png",
     desc: "Simple Pokedex App Developed using Java for Android Studio. Using data from the PokeApi",
-    desc_jp: "Android Studioを使用して開発されたシンプルなポケモン図鑑アプリ。",
+    desc_jp: "Android Studioを使用して開発されたシンプルなポケモン図鑑アプリ",
     stack: ["Java", "Android Studio"],
     link: "https://github.com/EC-9624/Pokedex",
   },
