@@ -11,16 +11,6 @@ export default [
   },
   {
     id: 1,
-    title: "Ramen Hub",
-    imgUrl: "/assets/ramenhub.png",
-    desc: "Interactive map to help you find the best ramen places in Osaka built using the MERN Stack.",
-    desc_jp:
-      "大阪にあるおすすめのラメーん屋さんの検索又は紹介するための地図アプリ",
-    stack: ["React", "NodeJs", "Express", "MongoDB"],
-    link: "https://github.com/EC-9624/RamenHub",
-  },
-  {
-    id: 2,
     title: "Pokedex",
     imgUrl: "/assets/pokedex.png",
     desc: "Simple Pokedex App Developed using Java for Android Studio. Using data from the PokeApi",
@@ -29,13 +19,23 @@ export default [
     link: "https://github.com/EC-9624/Pokedex",
   },
   {
-    id: 3,
+    id: 2,
     title: " Safety Confirmation System ",
     imgUrl: "/assets/safetyconfirm.png",
     desc: "Web-based system to help ensuring student safety in natural disasters. build using Laravel TailwindCss ",
     desc_jp: "学校をターゲットとした災害時連絡掲示板と安否確認システム",
     stack: ["PHP", "Laravel", "TailwindCss"],
     link: "https://github.com/EC-9624/SafetyConfirmationService",
+  },
+  {
+    id: 3,
+    title: "Ramen Hub",
+    imgUrl: "/assets/ramenhub.png",
+    desc: "Interactive map to help you find the best ramen places in Osaka built using the MERN Stack.",
+    desc_jp:
+      "大阪にあるおすすめのラメーん屋さんの検索又は紹介するための地図アプリ",
+    stack: ["React", "NodeJs", "Express", "MongoDB"],
+    link: "https://github.com/EC-9624/RamenHub",
   },
   {
     id: 4,
