@@ -28,7 +28,7 @@ export default [
       "タイのスリーナカリンウィロート大学を卒業しました。国際関係学の学位を追求し、グローバル政治、外交、そしてグローバル経済に関心を持っていました。",
   },
   {
-    year: "2019",
+    year: "2018",
     title: "First Line of Code",
     duration: "The begining",
     details:
