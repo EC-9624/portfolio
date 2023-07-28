@@ -2,11 +2,11 @@ export default [
   {
     id: 0,
     title: "Hobbylinks",
-    imgUrl: "/assets/tldrnews.png",
+    imgUrl: "/assets/hobbylinks.png",
     desc: "A platform for hosting and organizing in-person and online activity events for people with similar interests and hobbies. ",
     desc_jp:
       "同じ趣味興味や趣味を持つ人々のための、対面およびオンラインの活動 イベントを主催および組織するためのプラットフォーム",
-    stack: ["Python", "BeautifulSoup", "Mongodb"],
+    stack: ["React", "Laravel", "MySql", "TailwindCss"],
     link: "https://github.com/IESKA2KHobbyLink/HobbyLinks",
   },
   {
